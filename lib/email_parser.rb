@@ -9,6 +9,7 @@ class EmailAddressParser
     @string=string
 end
 
-def parse
-
+  def parse
+    emails.split(/, | /).uniq
+  end
 end
