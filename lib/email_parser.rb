@@ -11,7 +11,7 @@ end
 
 def parse
   @string.split.each do |word|
-    
+    word.split
 end
   binding.pry
 end
