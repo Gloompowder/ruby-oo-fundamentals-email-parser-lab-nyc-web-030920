@@ -13,6 +13,7 @@ def parse
   word_letters =[]
 @string.split.each do |word|
   word.split
+  binding.pry
 end
 end
 end
