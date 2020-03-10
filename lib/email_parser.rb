@@ -11,7 +11,7 @@ end
 
 def parse
   word_letters =[]
-@string.split
-  binding.pry
+@string.split.each do |word|
+  word.split
 end
 end
