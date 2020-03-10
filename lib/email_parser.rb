@@ -12,7 +12,7 @@ end
 def parse
   word_letters =[]
 @string.split.each do |word|
-  wrod_letters << word.split
+  word_letters << word.split
 end
 end
 end
