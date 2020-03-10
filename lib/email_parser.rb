@@ -11,5 +11,6 @@ end
 
 def parse
   @string.split.split
+  binding.pry
 end
 end
