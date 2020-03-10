@@ -15,3 +15,4 @@ def parse
   word.split
 end
 end
+end
