@@ -13,6 +13,9 @@ def parse
   word_letters =[]
 @string.split.each do |word|
   word_to_letters = word.split
+  word_to_letters.each do |letters|
+    letters.split 
+  end
 end
 end
 end
