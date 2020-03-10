@@ -12,7 +12,7 @@ end
 def parse
   @string.split.each do |word|
     splitted_word = word.split
+    binding.pry
 end
-  binding.pry
 end
 end
