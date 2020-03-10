@@ -10,9 +10,8 @@ class EmailAddressParser
 end
 
 def parse
-  @string.split.each do |word|
-    splitted_word = word.split
-    binding.pry
+@string
+binding.pry
 end
 end
 end
